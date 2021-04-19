@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: bisque;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 10px auto;
+    position: relative;
+}
+.head {
+    padding: 5px 5px 20px;
+    color: #50df;
+}
+.progressContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    border-radius: 10px;
+    padding: 2px 0;
+    position: relative;
+}
+.title {
+    white-space: nowrap;
+    width: 100%;
+    height: 30px;
+    padding: 5px 5px 15px 5px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+.progress {
+    width: 0;
+    height: 100%;
+    background: purple;
+    border-radius: 10px;
+     position: absolute; 
+     padding: 2px 0;
+}
+.sub {
+    font-style: italic;
+}
+.cover {
+    width: 100%;
+}
+.upper {
+    background: white;
+    width: 80%;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+    margin: 20px auto 5px;
+    padding: 5px;
+}
+.upper > h4, h6 {
+    padding: 10px 4px;
+}
+.lower {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    width: 100%;
+    background: whitesmoke;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+.img-cover {
+    width: 30%;
+}
+.img {
+    margin: 0 auto;
+    height: 80px;
+    border-radius: 50%;
+    width: 80px;
+}
+
+.control-png {
+    width: 20px;
+    height: 30px;
+}
+.controls {
+width: 40%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+font-size: 18px;
+font-weight: bold;
+
+}
+.random {
+    width: 10%;
+}
+.footer {
+ width: 50%;
+ margin: 5px auto;
+ background: white;
+ box-shadow: 2px 2px 5px black;
+ border-radius: 5px;
+ padding: 5px 10px;
+ text-align: center;
+ color: #26dcff;
+ font-family: monospace;   
+}
+
+.list {
+    display: none;
+    width: 100%;
+    margin: 10px auto;
+    background: white;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+    height: 300px;
+    overflow: auto;
+    position: absolute;
+    top: 80px;
+}
+
+.cancel {
+    width: 100%;
+    margin: 5px 0 10px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    color: red;
+}
+.list h3 {
+    padding: 5px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    padding: 10px;
+}

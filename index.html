@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="music.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 class='head'>Music Player</h2>
+        <p class="sub">Play Your Favorite Songs Here</p>
+
+        <div class="cover">
+            <div class="upper">
+                <h4 class="title">Sia- Never Give Up</h4>
+                <div class="progressContainer">
+                    <h6 class="progress"></h6>
+                </div>
+
+            </div>
+            <div class="lower">
+                <div class='img-cover'>
+                    <img src="sia-never-give-up.jpg" alt="Img" class="img">
+                </div>
+                <audio src="Never-Give-Up.mp3" id="audio"></audio>
+                <div class="controls">
+                    <div class="prev"><img src="back1.png" alt="back png" class="control-png"> </div>
+                    <div class="play"><img src="play2.png" alt="Play Png" id='play' class="control-png"> </div>
+                    <div class="next"><img src="next1.png" alt="Next png" class="control-png"></div>
+                </div>
+                <div class="random"><img src="random.png" alt='Random png' class="control-png"></div>
+            </div>
+
+            <div class="footer">
+                <h4 class="playlist">Playlist</h4>
+            </div>
+
+            <div class='list'>
+                <h3 class="cancel">X</h3>
+                <h3>My Playlist</h3>
+
+                <ul>
+                    <li>1. Sia- Never Give Up</li>
+                    <li>2. Sia- Together</li>
+                    <li>3. Sia- California Dreamin</li>
+                    <li>4. Sia- Cheap thrills</li>
+                    <li>5. Sia- Heaven Can Wait</li>
+                    <li>6. Chef 187- Wala</li>
+                    <li>7. Drake- Nice For What</li>
+                    <li>8. Justin Timberlake</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="music.js"></script>
+</body>
+
+</html>
